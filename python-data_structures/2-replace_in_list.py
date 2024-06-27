@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 def replace_in_list(my_list, idx, element):
-    # Check if idx is negative or out of range
+    # Check if the index is within the valid range
     if 0 <= idx < len(my_list):
-        return my_list
-
-    # Modify the list by replacing the element at idx with the new element
-    my_list[idx] = element
+        my_list[idx] = element
+    return my_list

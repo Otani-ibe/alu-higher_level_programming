@@ -7,7 +7,7 @@ string representation using '#', and deletion messages.
 
 class Rectangle:
     """
-    The Rectangle class represents a rectangle with width and height attributes.
+    The Rectangle class represents a rectangle with width & height attributes
     """
 
     def __init__(self, width=0, height=0):

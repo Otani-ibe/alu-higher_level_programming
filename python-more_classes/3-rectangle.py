@@ -123,8 +123,7 @@ class Rectangle:
         str: String representation of the rectangle.
         """
         if self.width == 0 or self.height == 0:
-            return ""
-        
+            return ""        
         rectangle_str = ""
         for _ in range(self.height):
             rectangle_str += "#" * self.width + "\n"
@@ -132,9 +131,9 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns a string representation of the rectangle for debugging purposes.
-
+        Returns a string representation of the rectangle for debugging purpose
+        
         Returns:
         str: String representation of the rectangle.
         """
-        return f"<{self.__class__.__module__}.{self.__class__.__name__} object>"
+    return f"<{self.__class__.__module__}.{self.__class__.__name__} object>"

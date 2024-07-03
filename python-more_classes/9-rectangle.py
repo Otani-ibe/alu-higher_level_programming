@@ -159,10 +159,8 @@ class Rectangle:
 
         Args:
         size (int): Size of the new rectangle's width & height = size
-        
         Args:
         size (int): Size of the new rectangle's width and height.
-        
         Returns:
             Rectangle: A new instance with width and height equal to size.
         """

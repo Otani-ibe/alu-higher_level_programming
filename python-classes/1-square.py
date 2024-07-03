@@ -4,6 +4,8 @@ Square Module
 
 This module defines the Square class for representing squares.
 """
+
+
 class Square:
     """
     A class that defines a square.

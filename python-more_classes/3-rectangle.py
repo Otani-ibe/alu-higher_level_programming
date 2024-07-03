@@ -132,9 +132,9 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns a string representation of the rectangle for debugging purposes.
+        Returns a string representation of the rectangle for debugging purposes
 
         Returns:
         str: String representation of the rectangle.
         """
-        return f"Rectangle(width={self.width}, height={self.height})"
+        return f"<{self.__class__.__module__}.{self.__class__.__name__} object\nRectangle(width={self.width}, height={self.height})>"

@@ -110,7 +110,8 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ""
 
-        rows = [str(self.print_symbol) * self.__width for _ in range(self.__height)]
+        rows = [str(self.print_symbol) * self.__width
+                for _ in range(self.__height)]
         return "\n".join(rows)
 
     def __repr__(self):
@@ -157,13 +158,12 @@ class Rectangle:
         Returns a new Rectangle instance with width and height equal to size.
 
         Args:
-            size (int): Size of the new rectangle's width & height = size
+        size (int): Size of the new rectangle's width & height = size
         
         Args:
-            size (int): Size of the new rectangle's width and height.
+        size (int): Size of the new rectangle's width and height.
         
         Returns:
             Rectangle: A new instance with width and height equal to size.
         """
         return cls(size, size)
-

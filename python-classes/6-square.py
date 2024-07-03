@@ -12,19 +12,19 @@ class Square:
 
     Attributes:
     __size (int): Private attribute representing the size of the square.
-    __position (tuple): Private attribute representing the position of the square.
+__position (tuple): Private attribute representing the position of the square
     """
 
     def __init__(self, size=0, position=(0, 0)):
         """
         Initializes a Square instance with an optional size and position.
 
-        Parameters:
-        size (int, optional): The size of the square (default is 0).
-        position (tuple, optional): The position of the square (default is (0, 0)).
+        Parameters
+        size(int, optional): The size of the square (default = 0)
+        position(tuple, optional):The position of the square(default = (0, 0))
 
         Raises:
-        TypeError: If size is not an integer or if position is not a tuple of 2 positive integers.
+        TypeError: If size is not an integer
         ValueError: If size is less than 0.
 
         Returns:

@@ -124,7 +124,7 @@ class Rectangle:
         """
         if self.width == 0 or self.height == 0:
             return ""
-
+        
         rectangle_str = ""
         for _ in range(self.height):
             rectangle_str += "#" * self.width + "\n"
@@ -132,9 +132,9 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns a string representation of the rectangle for debugging purposes
+        Returns a string representation of the rectangle for debugging purposes.
 
         Returns:
         str: String representation of the rectangle.
         """
-        return f"<{self.__class__.__module__}.{self.__class__.__name__} object\nRectangle(width={self.width}, height={self.height})>"
+        return f"<{self.__class__.__module__}.{self.__class__.__name__} object>"

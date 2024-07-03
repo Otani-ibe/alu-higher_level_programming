@@ -90,11 +90,11 @@ class Rectangle:
 
     def perimeter(self):
         """
-        Calculates the perimeter of the rectangle. If either the width or height is 0,
+        Calculates the perimeter of the rectangle. If either width/height = 0
         the perimeter is considered to be 0.
 
         Returns:
-            int: The perimeter of the rectangle, or 0 if either width or height is 0.
+            int: The perimeter of the rectangle, or 0 if either width/height= 0
         """
         if self.__width == 0 or self.__height == 0:
             return 0

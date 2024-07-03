@@ -15,7 +15,7 @@ class Rectangle:
         height (int): Height of the rectangle.
 
     Class Attributes:
-    number_of_instances (int): Tracks the number of Rectangle instances.
+        number_of_instances (int): Tracks the number of Rectangle instances.
         print_symbol: Symbol used for string representation (default is '#').
     """
 
@@ -127,3 +127,27 @@ class Rectangle:
         """Prints a message when an instance of Rectangle is deleted."""
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
+
+    @staticmethod
+    def bigger_or_equal(rect_1, rect_2):
+        """
+        Compares two rectangles and returns the one with the greater area.
+
+        Args:
+            rect_1 (Rectangle): First rectangle to compare.
+            rect_2 (Rectangle): Second rectangle to compare.
+
+        Raises:
+            TypeError: If rect_1 is not an instance of Rectangle.
+            TypeError: If rect_2 is not an instance of Rectangle.
+
+        Returns:
+            Rectangle: The rectangle with the larger area, or rect_1 if equal.
+        """
+        if not isinstance(rect_1, Rectangle):
+            raise TypeError("rect_1 must be an instance of Rectangle")
+        if not isinstance(rect_2, Rectangle):
+            raise TypeError("rect_2 must be an instance of Rectangle")
+        if rect_1.area() >= rect_2.area():
+            return rect_1
+        return rect_2

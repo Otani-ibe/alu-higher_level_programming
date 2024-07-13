@@ -3,9 +3,10 @@
 This is a sample module that demonstrates module, class, and function.
 
 Classes:
-- MyClass: A sample class demonstrating attributes and methods
+- MyClass: A sample class demonstrating attributes and methods.
+
 Functions:
-- lookup(obj): Returns a list of available attributes and methods of an object.
+- lookup(obj): Returns a list of available attributes and methods of an object
 """
 
 
@@ -22,8 +23,8 @@ class MyClass:
 
     def __init__(self):
         self.data = "example data"
-   
-   def method(self):
+
+    def method(self):
         """
         A sample method returning a string.
 

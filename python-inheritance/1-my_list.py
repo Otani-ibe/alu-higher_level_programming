@@ -2,7 +2,7 @@
 """
 Module: my_list
 
-This module defines the MyList class, a subclass of list with additional functionalities.
+This module defines the MyList class, a subclass of list with additional.
 
 Classes:
 - MyList: A subclass of list that adds sorting capabilities.

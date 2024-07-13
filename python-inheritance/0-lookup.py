@@ -3,11 +3,11 @@
 This is a sample module that demonstrates module, class, and function.
 
 Classes:
-- MyClass: A sample class demonstrating attributes and methods.
-  
+- MyClass: A sample class demonstrating attributes and methods.  
 Functions:
 - lookup(obj): Returns a list of available attributes and methods of an object.
 """
+
 
 class MyClass:
     """
@@ -21,8 +21,7 @@ class MyClass:
     """
 
     def __init__(self):
-        self.data = "example data"
-    
+        self.data = "example data"    
     def method(self):
         """
         A sample method returning a string.
@@ -31,6 +30,7 @@ class MyClass:
         - str: A fixed string indicating method completion.
         """
         return "example method"
+
 
 def lookup(obj):
     """
@@ -42,4 +42,4 @@ def lookup(obj):
     Returns:
     - List of strings: Names of attributes and methods of the object
     """
-    return dir (obj)
+    return dir(obj)

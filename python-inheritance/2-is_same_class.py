@@ -2,11 +2,12 @@
 """
 Module: type_check
 
-This module provides a function to check if an object is exactly an instance of a specified class.
+This module provides a function to check if an object is instance of class
 
 Functions:
-- is_same_class(obj, a_class): Returns True if the object is exactly an instance of the specified class; otherwise False.
+- is_same_class(obj, a_class
 """
+
 
 def is_same_class(obj, a_class):
     """

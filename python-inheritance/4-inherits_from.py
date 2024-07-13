@@ -8,7 +8,7 @@ This module provides a function to check if an obj is an instance of a class
 
 def inherits_from(obj, a_class):
     """
-    Checks if the object is an instance of a class that inherited from the specified class.
+    Checks if the object is an instance of a class that inherited from class
 
     Args:
     - obj: Any Python object.

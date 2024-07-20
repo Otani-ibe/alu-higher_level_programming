@@ -6,7 +6,7 @@ Provides functions to read, write, and append to UTF-8 text files.
 
 def append_write(filename="", text=""):
     """
-    Appends a string to a text file (UTF8) and returns the number of characters added.
+    Appends a string to a text file (UTF8) and returns the number of character
 
     Args:
         filename (str): The path to the text file. Default is an empty string.

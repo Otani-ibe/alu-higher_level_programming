@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Provides functions for working with text files and JSON serialization/deserialization.
+Provides functions for working with text files and JSON serialization
 """
 
 
